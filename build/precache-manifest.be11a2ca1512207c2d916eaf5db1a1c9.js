@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f0be52dcf45a0bbb2f09eb605ed51ee",
+    "revision": "504dd3719a8880f9c0c97e6e7193b624",
     "url": "/index.html"
   },
   {
-    "revision": "1f0197b2c7fb23aec301",
+    "revision": "28e2d13ecbd149ea43ee",
     "url": "/static/css/2.c5f7f512.chunk.css"
   },
   {
-    "revision": "322dcbbc69d0a6df031b",
-    "url": "/static/css/main.ee91715a.chunk.css"
+    "revision": "ff46d40c0bbdf436ef4f",
+    "url": "/static/css/main.0f833770.chunk.css"
   },
   {
-    "revision": "1f0197b2c7fb23aec301",
-    "url": "/static/js/2.ef4943ab.chunk.js"
+    "revision": "28e2d13ecbd149ea43ee",
+    "url": "/static/js/2.7708752b.chunk.js"
   },
   {
     "revision": "b7f5e65d648f198d68a9efd40eb105a6",
-    "url": "/static/js/2.ef4943ab.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7708752b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "322dcbbc69d0a6df031b",
-    "url": "/static/js/main.ac9f233f.chunk.js"
+    "revision": "ff46d40c0bbdf436ef4f",
+    "url": "/static/js/main.1849b32d.chunk.js"
   },
   {
     "revision": "3136d39c7bf9dcc10deb",
@@ -676,6 +676,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/h_blog2.7828a1a1.jpg"
   },
   {
+    "revision": "b5c2af64ae990f46615dab48025a12bc",
+    "url": "/static/media/hj.b5c2af64.png"
+  },
+  {
     "revision": "bfe9ae23e21e0a882f78aca31c5ccf6e",
     "url": "/static/media/home-animation.bfe9ae23.jpg"
   },
@@ -1214,6 +1218,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0823274cf3b883d70592402ed4bfba0",
     "url": "/static/media/tab_shape_bg.f0823274.png"
+  },
+  {
+    "revision": "6c296e3ebcf8485abdf33c7936452945",
+    "url": "/static/media/task.6c296e3e.png"
+  },
+  {
+    "revision": "a81dc73ff9a88da48a6535fe31a4c892",
+    "url": "/static/media/task.a81dc73f.mp4"
+  },
+  {
+    "revision": "feae90eec7e218a440edc4bfc7103ae6",
+    "url": "/static/media/taskScreen.feae90ee.png"
   },
   {
     "revision": "4ced432d9bde81638a75f4adf10fba0f",
