@@ -55,7 +55,7 @@ class CustomNavbar extends Component {
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      Pages
+                      Product
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
