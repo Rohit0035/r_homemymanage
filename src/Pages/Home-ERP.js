@@ -6,7 +6,7 @@ import ErpAction from "../components/ErpAction";
 import ErpFeatures from "../components/Features/ErpFeatures";
 import Erpanalytics from "../components/Erpanalytics";
 import ErpCustomerlogo from "../components/ErpCustomerlogo";
-import ErpActionTwo from "../components/ErpActionTwo";
+// import ErpActionTwo from "../components/ErpActionTwo";
 import ErpTestimonial from "../components/Testimonial/ErpTestimonial";
 import FooterData from "../components/Footer/FooterData";
 import FooterTwo from "../components/Footer/FooterTwo";
@@ -22,7 +22,7 @@ const Homeerp = () => {
       <Erpanalytics />
       <ErpCustomerlogo />
       <ErpTestimonial />
-      <ErpActionTwo />
+      {/* <ErpActionTwo /> */}
       <FooterTwo FooterData={FooterData} />
     </div>
   );

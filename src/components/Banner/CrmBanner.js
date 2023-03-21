@@ -18,8 +18,12 @@ class CrmBanner extends Component {
                   <div className="line line_three">
                     <img src={require("../../img/new/line_03.png")} alt="" />
                   </div>
-                  <img
+                  {/* <img
                     src={require("../../img/new/startup_banner_img.png")}
+                    alt=""
+                  /> */}
+                  <img
+                    src={require("../../img/erp-home/erp_dashboard.jpg")}
                     alt=""
                   />
                 </div>
@@ -29,26 +33,29 @@ class CrmBanner extends Component {
               <Reveal bottom cascade duraton={1200}>
                 <div className="new_startup_content">
                   <h2
-                    className="f_700 f_size_40 l_height50 w_color mb_20 wow fadeInRight"
+                    className="f_700 f_size_40 l_height50 mb_20 wow fadeInRight"
                     data-wow-delay="0.3s"
                   >
                     Ready to see <br />
                     <span>Mymanager</span> in Action?
                   </h2>
                   <p
-                    className="f_400 w_color l_height28 wow fadeInRight"
+                    className="f_400  l_height28 wow fadeInRight"
                     data-wow-delay="0.4s"
                   >
-                    Cup of tea my lady a blinding shot lost the plot spend a
-                    penny, only a quid bog-standard in my flat, morish chinwag
-                    sloshed. Cheeky chap old charles dropped a clanger.!
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
                   </p>
                   <div
                     className="action_btn d-flex align-items-center mt_40 wow fadeInRight"
                     data-wow-delay="0.6s"
                   >
-                    <a href=".#" className="btn_hover app_btn">
-                      Sign up <i className="ti-arrow-right"></i>
+                    <a
+                      href="https://mymanager.com/login"
+                      className="er_btn er_btn_two mt-2"
+                    >
+                      Try Mymanager <i className="ti-arrow-right"></i>
                     </a>
                   </div>
                 </div>

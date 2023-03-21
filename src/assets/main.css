@@ -406,8 +406,11 @@ button:focus {
   padding-top: 40px;
 }
 
-.sec_pad {
+/* .sec_pad {
   padding: 120px 0px;
+} */
+.sec_pad {
+  padding: 60px 0px;
 }
 
 /*====================================================*/
@@ -3841,7 +3844,7 @@ button:focus {
 
 /*============== agency_banner_area css =============*/
 .agency_banner_area {
-  padding-top: 150px;
+  padding-top: 80px;
   position: relative;
   z-index: 1;
 }
@@ -3946,6 +3949,7 @@ button:focus {
 .app_banner_contentmt .app_btn {
   border: 0px;
   background: #fff;
+  border: 1px solid;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -4070,7 +4074,7 @@ button:focus {
 
 .section_container .intro_content {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   width: 100%;
   left: 0;
   padding: 0px 15px;
@@ -4494,7 +4498,7 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #563bd1;
+  /* background: #563bd1; */
   position: relative;
   z-index: 0;
 }
@@ -4540,7 +4544,10 @@ button:focus {
   top: -160px;
   opacity: 0.4;
 }
-
+.new_startup_img img {
+  animation-name: spin;
+  animation-duration: 3s;
+}
 .new_startup_content h2 {
   font: 300 50px "Poppins", sans-serif;
   line-height: 58px;
@@ -6109,7 +6116,7 @@ button:focus {
 
 /*============== agency_featured_area css =============*/
 .agency_featured_area {
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
 .agency_featured_area_two {
@@ -6440,7 +6447,7 @@ button:focus {
 
 /*=============== app_featured_area css ===============*/
 .app_featured_area {
-  padding: 140px 0px;
+  padding: 60px 0px;
   position: relative;
   z-index: 1;
 }
@@ -6598,11 +6605,11 @@ button:focus {
 
 .app_featured_area_two {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 .app_featured_area_two .app_feature_info {
-  margin-top: 230px;
+  margin-top: 60px;
 }
 
 /*=============== saas_features_area_two css ==============*/
@@ -7846,7 +7853,7 @@ button:focus {
 
 /*============= agency_service_area css =============*/
 .agency_service_area {
-  padding: 135px 0px 140px;
+  padding: 70px 0px 70px;
 }
 
 .agency_service_item {
@@ -8137,7 +8144,7 @@ button:focus {
 
 /*============= app_service_area css ============*/
 .app_service_area {
-  padding-top: 120px;
+  padding-top: 0px;
   background: #fff;
 }
 
@@ -10814,8 +10821,8 @@ button:focus {
 /*=============== app_testimonial_area css =============*/
 .app_testimonial_area {
   background: #fbfbfd;
-  padding-top: 200px;
-  padding-bottom: 140px;
+  padding-top: 130px;
+  padding-bottom: 70px;
   overflow: hidden;
   position: relative;
 }
@@ -19121,7 +19128,7 @@ input[type="text"] {
 
 .hosting_title {
   max-width: 700px;
-  margin: 0 auto 70px;
+  margin: 0 auto 20px;
 }
 
 .hosting_title h2 {
@@ -20054,7 +20061,7 @@ a .h_head:hover {
 /*============== erp_banner_area_two css =============*/
 /*============== erp_service_area css =============*/
 .erp_service_area {
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .erp_service_area .row {
@@ -20235,7 +20242,8 @@ a .h_head:hover {
 
 /*=========== erp_features_area css =============*/
 .erp_item_features + .erp_item_features {
-  margin-top: 200px;
+  /* margin-top: 200px; */
+  margin-top: 70px;
 }
 
 .erp_features_img_two {
@@ -20484,7 +20492,7 @@ a .h_head:hover {
 .erp_analytics_area {
   background: url("../img/erp-home/background.png") no-repeat scroll center 0 /
     cover;
-  padding: 100px 0px 220px;
+  padding: 60px 0px 140px;
 }
 
 .erp_analytics_item {
@@ -20572,7 +20580,8 @@ a .h_head:hover {
   background-color: white;
   -webkit-box-shadow: 0px 20px 40px 0px rgba(1, 1, 64, 0.06);
   box-shadow: 0px 20px 40px 0px rgba(1, 1, 64, 0.06);
-  padding: 50px;
+  /* padding: 50px; */
+  padding: 0px 20px;
   position: relative;
 }
 
@@ -20649,8 +20658,8 @@ a .h_head:hover {
 .erp_call_action_area:before {
   content: "";
   position: absolute;
-  background: url("../img/erp-home/shape.png") no-repeat scroll center
-    bottom/cover;
+  /* background: url("../img/erp-home/shape.png") no-repeat scroll center
+    bottom/cover; */
   width: 100%;
   left: 0;
   height: 100%;
@@ -20717,7 +20726,7 @@ a .h_head:hover {
 }
 
 .erp_customer_logo_area {
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .erp_customer_logo_area .er_btn {
@@ -23560,7 +23569,7 @@ a .h_head:hover {
 /*=============== footer_area_four css =============*/
 .footer_area_four .footer_top {
   border-bottom: 1px solid #e9ecf3;
-  padding: 120px 0px 70px;
+  padding: 50px 0px 50px;
 }
 
 .footer_area_four .footer_top .f_widget.about-widget .f_list li a:hover {
@@ -24340,8 +24349,8 @@ a .h_head:hover {
 /*=================== h_security_banner_area css =============*/
 .h_security_banner_area {
   height: 100vh;
-  min-height: 650px;
-  background-image: linear-gradient(60deg, #0063c1 0%, #0e79de 100%);
+  min-height: 440px;
+  /* background-image: linear-gradient(60deg, #0063c1 0%, #0e79de 100%); */
   align-items: center;
   justify-content: center;
   display: -webkit-box;
@@ -24380,7 +24389,7 @@ a .h_head:hover {
   font-size: 50px;
   line-height: 64px;
   font-weight: 700;
-  color: #fff;
+  color: #000;
   margin-bottom: 18px;
 }
 
@@ -24427,7 +24436,10 @@ a .h_head:hover {
 /*================== h_security_area css ===========*/
 /*================== h_security_area css ===========*/
 .h_security_area {
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
+  /* padding: 0px 0px; */
+  padding-top: 25px;
+  background: #cccccc3b;
 }
 
 .h_security_area .row {
@@ -24438,7 +24450,7 @@ a .h_head:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 45px 0px;
+  margin: 25px 0px;
 }
 
 .h_security_item img {
@@ -24780,8 +24792,8 @@ a .h_head:hover {
 /*============ analytices_list_area css ============*/
 .analytices_list_area {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   z-index: 2;
 }
 
@@ -24792,7 +24804,7 @@ a .h_head:hover {
   height: 560px;
   z-index: -1;
   left: 0;
-  background: url("../img/home-software/down_bg.png") no-repeat scroll;
+  /* background: url("../img/home-software/down_bg.png") no-repeat scroll; */
   bottom: 0;
   background-size: cover;
 }
@@ -24839,7 +24851,7 @@ a .h_head:hover {
 }
 
 .security_list_area {
-  padding-top: 180px;
+  padding-top: 100px;
 }
 
 .security_list_area .macbook_a {
@@ -26287,8 +26299,13 @@ a .h_head:hover {
 }
 
 /*============= chat_features_area css ===========*/
+/* .chat_features_area {
+  padding:120px 0px;
+} */
+
 .chat_features_area {
-  padding: 120px 0px;
+  /* padding: px 0px; */
+  padding-bottom: 80px;
 }
 
 .chat_features_img {
@@ -26376,10 +26393,10 @@ a .h_head:hover {
 }
 
 .chat_integration_area {
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 .chat_integration_area .border-bottom {
-  margin-bottom: 110px;
+  margin-bottom: 50px;
 }
 
 /*============= chat_features_area css ===========*/
@@ -26443,8 +26460,8 @@ a .h_head:hover {
 .chat_get_started_area {
   background: url("../img/home-chat/get_started_bg.png") no-repeat scroll center
     bottom;
-  height: 712px;
-  padding-top: 120px;
+  height: 600px;
+  padding-top: 60px;
 }
 
 .chat_get_started_content h2 {
@@ -26522,6 +26539,50 @@ span.st-2 {
 
 /* solution page css */
 section.pricing_area_four.sec_pad.prc-padding {
-  padding: 150px 0px;
+  /* padding: 150px 0px; */
+  padding-top: 150px;
+  padding-bottom: 60px;
 }
 /* solution page css close  */
+
+/* banner title css */
+.banner-title {
+  padding: 64px 0px;
+  background: #174ae7;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.banner-title h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* banner title css close */
+
+/* contact css st  */
+
+section.contact_info_area.sec_pad.bg_color.rht-padd {
+  padding: 92px 0px;
+}
+
+/* contact css close */
+
+/* enterprise page css */
+section#home {
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+.erp_banner_area_two .animation_img {
+  margin-top: -360px !important;
+}
+/* enterprise page css close  */
+
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 600px) {
+  .section_container .intro_content {
+    position: absolute;
+    bottom: 50px;
+  }
+}

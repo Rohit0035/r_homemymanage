@@ -39,6 +39,10 @@ import BlogGridPage from "./Pages/BlogGridPage";
 import NotFound from "./Pages/404";
 import SolutionPage from "./components/myanimation/SolutionPage";
 import EnterprisePage from "./components/myanimation/EnterprisePage";
+import Task from "./components/myanimation/Task";
+import Goal from "./components/myanimation/Goal";
+import Shop from "./components/myanimation/Shop";
+import Marketing from "./components/myanimation/Marketing";
 
 class App extends Component {
   componentDidMount() {
@@ -75,6 +79,13 @@ class App extends Component {
           <ScrollToTopRoute
             path="/myanimation/enterprisepage"
             component={EnterprisePage}
+          />
+          <ScrollToTopRoute path="/myanimation/task" component={Task} />
+          <ScrollToTopRoute path="/myanimation/goal" component={Goal} />
+          <ScrollToTopRoute path="/myanimation/shop" component={Shop} />
+          <ScrollToTopRoute
+            path="/myanimation/marketing"
+            component={Marketing}
           />
 
           <ScrollToTopRoute path="/myanimation/" component={SolutionPage} />

@@ -4,12 +4,12 @@ import VideoLooper from "react-video-looper";
 import VideoEnter from "../../img/videolist/enterprise-hero.IN.mp4";
 const AppBanner = () => {
   return (
-    <section className="app_banner_area" id="home">
+    <section className="app_banner_area pag-ent" id="home">
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
             <Reveal bottom cascade>
-              <div className="app_banner_contentmt mt_40">
+              <div className="app_banner_contentmt mt_40 ">
                 <h2
                   className="f_p f_700 f_size_50  mb_20 wow fadeInLeft"
                   data-wow-delay="0.2s"

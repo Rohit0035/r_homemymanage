@@ -55,7 +55,7 @@ class CustomNavbar extends Component {
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      Product
+                      Pages
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
@@ -63,7 +63,7 @@ class CustomNavbar extends Component {
                           exact
                           title="Service"
                           className="nav-link"
-                          //   to="/Service"
+                          to="/Contact"
                         >
                           Contact
                         </NavLink>
@@ -73,7 +73,7 @@ class CustomNavbar extends Component {
                           exact
                           title="Service Details"
                           className="nav-link"
-                          //   to="/ServiceDetails"
+                          to="/myanimation/task"
                         >
                           Task
                         </NavLink>
@@ -83,9 +83,20 @@ class CustomNavbar extends Component {
                           exact
                           title="Service Details"
                           className="nav-link"
-                          //   to="/ServiceDetails"
+                          to="/myanimation/goal"
                         >
                           Goals
+                        </NavLink>
+                      </li>
+
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="/myanimation/marketing"
+                        >
+                          Marketing
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -105,17 +116,7 @@ class CustomNavbar extends Component {
                           className="nav-link"
                           //   to="/ServiceDetails"
                         >
-                          Marketing
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink
-                          exact
-                          title="Service Details"
-                          className="nav-link"
-                          //   to="/ServiceDetails"
-                        >
-                          MyDOc
+                          MyDoc
                         </NavLink>
                       </li>
                       <li className="nav-item">

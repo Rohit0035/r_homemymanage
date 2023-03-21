@@ -95,7 +95,7 @@ class ErpCustomerlogo extends Component {
           <div className="hosting_title erp_title text-center">
             <h2>
               Great companies that <span className="icon_heart"></span>{" "}
-              Mymanager ERP
+              Mymanager
             </h2>
             <p>
               Cack brolly butty grub chancer smashing brilliant vagabond,
