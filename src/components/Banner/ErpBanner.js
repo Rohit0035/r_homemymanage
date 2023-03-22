@@ -33,25 +33,25 @@ const ErpBanner = () => {
                 Manage Your
                 <TextLoop>
                   <h1
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "red" }}
                   >
                     Daily Task
                   </h1>
                   <h1
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "#ecb22e" }}
                   >
                     Motivation
                   </h1>
                   <h1
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "#174ae7" }}
                   >
                     Reminders
                   </h1>
                   <h1
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "red" }}
                   >
                     Finances
@@ -59,7 +59,9 @@ const ErpBanner = () => {
                 </TextLoop>
               </h1>
               <p>
-                Whatever work you do, you can use Mymanager for your business.
+                Mymanager is your all in one platform that will eliminate the
+                need to use multiple SaaS products. Switch from productivity
+                loss to meeting the newest member of your team — Your Manager
               </p>
               <a href="/#" className="er_btn er_btn_two">
                 Try Mymanager

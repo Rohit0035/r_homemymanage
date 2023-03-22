@@ -25,7 +25,7 @@ class AgencyBanner extends Component {
                           {Agency.btitle}
                         </h2>
                         <p
-                          className="f_400 l_height28 wow fadeInLeft"
+                          className="f_400 l_height28 wow fadeInLeft mt-2"
                           data-wow-delay="0.4s"
                         >
                           {Agency.description}
@@ -36,7 +36,7 @@ class AgencyBanner extends Component {
                   <div className="action_btn d-flex align-items-center mt_60">
                     <a
                       href="https://mymanager.com/login"
-                      className="btn_hover agency_banner_btn wow fadeInLeft"
+                      className="btn_hover agency_banner_btn wow fadeInLeft mt-2"
                       data-wow-delay="0.5s"
                     >
                       Try Mymanager

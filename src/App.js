@@ -43,11 +43,13 @@ import Task from "./components/myanimation/Task";
 import Goal from "./components/myanimation/Goal";
 import Shop from "./components/myanimation/Shop";
 import Marketing from "./components/myanimation/Marketing";
+import MyDoc from "./components/myanimation/MyDoc";
+import Employee from "./components/myanimation/Employee";
 
 class App extends Component {
-  componentDidMount() {
-    this.props.hideLoader();
-  }
+  // componentDidMount() {
+  //   this.props.hideLoader();
+  // }
   render() {
     return (
       <Router>
@@ -87,6 +89,8 @@ class App extends Component {
             path="/myanimation/marketing"
             component={Marketing}
           />
+          <ScrollToTopRoute path="/myanimation/mydoc" component={MyDoc} />
+          <ScrollToTopRoute path="/myanimation/employee" component={Employee} />
 
           <ScrollToTopRoute path="/myanimation/" component={SolutionPage} />
 

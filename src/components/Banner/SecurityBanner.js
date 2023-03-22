@@ -17,19 +17,21 @@ const SecurityBanner = () => {
               <h2 className="wow fadeInUp" data-wow-delay="0.3s">
                 Your Task Solution and Performance With Mymanager
               </h2>
-              {/* <p
+              <p
                 className="f_400  l_height28 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                Download  Mymanager   Optimization Utility
-              </p> */}
+                Mymanager is your all in one platform that will eliminate the
+                need to use multiple SaaS products. Switch from productivity
+                loss to meeting the newest member of your team — Your Manager
+              </p>
               <div
                 className="action_btn d-flex align-items-center mt_40 wow fadeInUp"
                 data-wow-delay="0.6s"
               >
                 <a
                   href="https://mymanager.com/login"
-                  className="er_btn er_btn_two"
+                  className="er_btn er_btn_two mt-2"
                 >
                   Try Mymanager
                 </a>

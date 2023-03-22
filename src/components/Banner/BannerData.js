@@ -4,7 +4,7 @@ const BannerData = {
       id: 1,
       btitle: "Grow your  Marketing with Mymanager Better Solutions",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Mymanager is your all in one platform that will eliminate the need to use multiple SaaS products. Switch from productivity loss to meeting the newest member of your team — Your Manager",
     },
   ],
   ClientsLogo: [

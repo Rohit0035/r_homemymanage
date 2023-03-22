@@ -22,10 +22,7 @@ class CrmBanner extends Component {
                     src={require("../../img/new/startup_banner_img.png")}
                     alt=""
                   /> */}
-                  <img
-                    src={require("../../img/erp-home/erp_dashboard.jpg")}
-                    alt=""
-                  />
+                  <img src={require("../../img/erp-home/goal.png")} alt="" />
                 </div>
               </Reveal>
             </div>
@@ -43,9 +40,10 @@ class CrmBanner extends Component {
                     className="f_400  l_height28 wow fadeInRight"
                     data-wow-delay="0.4s"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Mymanager is your all in one platform that will eliminate
+                    the need to use multiple SaaS products. Switch from
+                    productivity loss to meeting the newest member of your team
+                    — Your Manager
                   </p>
                   <div
                     className="action_btn d-flex align-items-center mt_40 wow fadeInRight"

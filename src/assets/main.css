@@ -979,8 +979,8 @@ button:focus {
 
 .menu > .nav-item {
   position: relative;
-  padding-bottom: 35px;
-  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .menu > .nav-item > .nav-link {
@@ -1016,6 +1016,7 @@ button:focus {
   margin: 0px;
   border: 0px;
   margin: 0px;
+  top: 60px;
   border-radius: 0px;
   left: -40px;
   min-width: 200px;
@@ -1043,7 +1044,7 @@ button:focus {
   display: block;
   width: 100%;
   margin-right: 0px;
-  padding: 0px 40px;
+  padding: 0px 20px;
   position: relative;
 }
 
@@ -1074,7 +1075,7 @@ button:focus {
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item:first-child {
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 @media (min-width: 992px) {
@@ -1088,7 +1089,7 @@ button:focus {
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item:last-child {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin-bottom: -8px;
 }
 
@@ -2694,7 +2695,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-.navbar_fixed .header_area {
+/* .navbar_fixed .header_area {
   position: fixed;
   top: 0;
   left: 0;
@@ -2702,6 +2703,19 @@ button:focus {
   background-color: white;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
   box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+} */
+
+.navbar_fixed .header_area {
+  position: fixed;
+  background-color: white;
+  box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+  border-radius: 50px;
+  margin-top: 0.5rem;
+  margin: 10px;
+  padding: 0 2.225rem;
+  max-width: 82.25rem;
+  background-color: #fff;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
 }
 
 .navbar_fixed .header_area .menu_one {
@@ -3581,7 +3595,7 @@ button:focus {
 }
 
 .banner_top {
-  padding-top: 210px;
+  padding-top: 100px;
 }
 
 .banner_top h2 {
@@ -3844,7 +3858,7 @@ button:focus {
 
 /*============== agency_banner_area css =============*/
 .agency_banner_area {
-  padding-top: 80px;
+  padding-top: 120px;
   position: relative;
   z-index: 1;
 }
@@ -18856,7 +18870,7 @@ input[type="text"] {
 /*============ erp_menu css =============*/
 /*================= hosting_banner_area css ==============*/
 .hosting_banner_area {
-  background: #020230;
+  /* background: #020230; */
   min-height: 650px;
   height: 100vh;
   display: -webkit-box;
@@ -18871,13 +18885,13 @@ input[type="text"] {
 .hosting_content h2 {
   font-size: 50px;
   line-height: 70px;
-  color: #fff;
+  color: #000;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
 .hosting_content p {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 50px;
@@ -19232,7 +19246,9 @@ a .h_head:hover {
 
 /*========== hosting_features_area css ========*/
 .hosting_features_area {
-  padding-bottom: 140px;
+  /* padding-bottom: 140px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .h_features_content {
@@ -19832,6 +19848,7 @@ a .h_head:hover {
 .erp_banner_area_two + section {
   position: relative;
   z-index: 1;
+  background: #f1f1f1;
 }
 
 .erp_banner_area_two .animation_img {
@@ -24349,7 +24366,7 @@ a .h_head:hover {
 /*=================== h_security_banner_area css =============*/
 .h_security_banner_area {
   height: 100vh;
-  min-height: 440px;
+  min-height: 700px;
   /* background-image: linear-gradient(60deg, #0063c1 0%, #0e79de 100%); */
   align-items: center;
   justify-content: center;
@@ -26129,7 +26146,7 @@ a .h_head:hover {
   min-height: 700px;
   background: #fafafe;
   position: relative;
-  padding: 150px 0px 120px;
+  padding: 90px 0px 120px;
   overflow: hidden;
 }
 .chat_banner_area .cloud {
@@ -26165,8 +26182,8 @@ a .h_head:hover {
 }
 .chat_banner_content h2 {
   font-size: 48px;
-  line-height: 72px;
-  font-weight: 400;
+  line-height: 35px;
+  font-weight: 600;
   color: #051441;
   margin-bottom: 30px;
 }
@@ -26537,6 +26554,29 @@ span.st-2 {
   padding: 170px 0px;
 }
 
+/* homepage btn */
+button.email-btn {
+  background: #194bea;
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+button.google-btn {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 15px;
+  border: 1px solid#194bea;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 /* solution page css */
 section.pricing_area_four.sec_pad.prc-padding {
   /* padding: 150px 0px; */
@@ -26584,5 +26624,14 @@ section#home {
   .section_container .intro_content {
     position: absolute;
     bottom: 50px;
+  }
+  .navbar_fixed .header_area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+    box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
   }
 }

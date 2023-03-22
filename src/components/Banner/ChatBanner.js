@@ -1,5 +1,6 @@
 import React from "react";
 import TextLoop from "react-text-loop";
+import { FcGoogle } from "react-icons/fc";
 
 const ChatBanner = () => {
   return (
@@ -37,33 +38,60 @@ const ChatBanner = () => {
                 Your
                 <TextLoop>
                   <h2
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "red" }}
                   >
                     Personal
                   </h2>
                   <h2
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "#ecb22e" }}
                   >
                     Business
                   </h2>
                   <h2
-                    className="clr-1 ml-1 mr-1"
+                    className="clr-1 ml-2 mr-2"
                     style={{ fontWeight: 700, color: "#174ae7" }}
                   >
                     Task
                   </h2>
+                  <h2
+                    className="clr-1 ml-2 mr-2"
+                    style={{ fontWeight: 700, color: "green" }}
+                  >
+                    Productivity
+                  </h2>
                 </TextLoop>
                 Manager at your fingertips
               </h2>
-              <div
-                className="text-center pr_100 wow fadeInUp"
+              <p
+                className="f_400  l_height28 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                <a href="/#" className="chat_btn btn_hover">
+                Mymanager is your all in one platform that will eliminate the
+                need to use multiple SaaS products. Switch from productivity
+                loss to meeting the newest member of your team — Your Manager
+              </p>
+              <div
+                className="text-center pr_50 wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                {/* <a href="/#" className="chat_btn btn_hover">
                   Read More
-                </a>
+                </a> */}
+                <button className="email-btn">
+                  Sign up with email address
+                </button>
+
+                <button className="google-btn">
+                  <FcGoogle fontSize={30} className="mr-2" />
+                  Sign up with Google
+                </button>
+                <div className="">
+                  <span>
+                    (Create your free account. No credit card is required)
+                  </span>
+                </div>
               </div>
             </div>
           </div>

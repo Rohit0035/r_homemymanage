@@ -48,7 +48,7 @@ class CustomNavbar extends Component {
                   <li className="dropdown submenu nav-item">
                     <Link
                       to="./"
-                      title="Pages"
+                      title="Product"
                       className="dropdown-toggle nav-link"
                       data-toggle="dropdown"
                       role="button"
@@ -56,12 +56,15 @@ class CustomNavbar extends Component {
                       aria-expanded="false"
                     >
                       Product
+                      <span className="ml-1">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                      </span>
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service"
+                          title="Contact"
                           className="nav-link"
                           to="/Contact"
                         >
@@ -71,7 +74,7 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service Details"
+                          title="Task"
                           className="nav-link"
                           to="/myanimation/task"
                         >
@@ -81,7 +84,7 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service Details"
+                          title="Goals"
                           className="nav-link"
                           to="/myanimation/goal"
                         >
@@ -92,7 +95,7 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service Details"
+                          title="Marketing"
                           className="nav-link"
                           to="/myanimation/marketing"
                         >
@@ -102,9 +105,9 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service Details"
+                          title="Shop"
                           className="nav-link"
-                          //   to="/ServiceDetails"
+                          to="/myanimation/shop"
                         >
                           Shop
                         </NavLink>
@@ -112,7 +115,7 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service Details"
+                          title="MyDoc"
                           className="nav-link"
                           //   to="/ServiceDetails"
                         >
@@ -122,9 +125,9 @@ class CustomNavbar extends Component {
                       <li className="nav-item">
                         <NavLink
                           exact
-                          title="Service Details"
+                          title="Employee"
                           className="nav-link"
-                          //   to="/ServiceDetails"
+                          to="/myanimation/employee"
                         >
                           Employee
                         </NavLink>
@@ -298,7 +301,7 @@ class CustomNavbar extends Component {
                   </li> */}
                   <li className="nav-item">
                     <NavLink
-                      title="Pricing"
+                      title="Solutions"
                       className="nav-link"
                       to="/Home-ERP"
                     >
@@ -307,7 +310,7 @@ class CustomNavbar extends Component {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      title="Pricing"
+                      title="Enterprise"
                       className="nav-link"
                       to="/myanimation/enterprisepage"
                     >
