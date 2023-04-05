@@ -108,17 +108,13 @@ export default function TextAround() {
           <div className="col-lg-6">
             <div className="col-md-6">
               <div className="arond-spin text-center">
-                <circular-text
-                  text=" Task · Goal · Shop . Marketing . MyDoc  "
-                  radius="200"
-                  className="bold-text"
-                  style={{
-                    fontWeight: 700,
-                    fontSize: 25,
-                    color: "#000",
-                    marginRight: 0,
-                  }}
-                ></circular-text>
+                <img
+                  className="fadeInRight"
+                  data-wow-delay="0.3s"
+                  src={require("../../img/home-software/pie.png")}
+                  alt=""
+                  width="100%"
+                />
               </div>
             </div>
           </div>

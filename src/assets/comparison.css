@@ -1,0 +1,40 @@
+.laptop-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* padding: 220px; */
+  background-image: url("../img/comp/laptop.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-grow: 1;
+}
+.before-after-slider.test {
+  position: absolute;
+  top: 2%;
+  left: 13%;
+  width: 76%;
+  height: auto;
+  border-radius: 8px;
+}
+.before-after-slider__delimiter-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(4, 159, 24) !important;
+  border: 4px solid white !important;
+}
+
+
+
+/* .before-after-slider__delimiter-icon::before {
+  content: "<>" !important;
+} */
+a.er_btn.er_btn_two {
+  margin-top: 0px;
+}
+.lap-content.mt-5 {
+  margin-bottom: 35px;
+}

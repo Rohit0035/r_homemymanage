@@ -147,6 +147,8 @@ button:focus {
 
 .container.custom_container {
   max-width: 1520px;
+  position: relative;
+  z-index: 4;
 }
 
 .f_size_50 {
@@ -433,7 +435,7 @@ button:focus {
 }
 
 .btn_get {
-  font: 500 14px/47px "Poppins", sans-serif;
+  font: 500 14px/40px "Poppins", sans-serif;
   color: #174ae7;
   border: 2px solid #ccc5fa;
   border-radius: 4px;
@@ -954,7 +956,7 @@ button:focus {
 }
 
 .menu_one .btn_get {
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .navbar-brand img {
   display: none;
@@ -2706,16 +2708,24 @@ button:focus {
 } */
 
 .navbar_fixed .header_area {
-  position: fixed;
+  /* position: fixed;
   background-color: white;
   box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
   border-radius: 50px;
-  margin-top: 0.5rem;
-  margin: 10px;
   padding: 0 2.225rem;
-  max-width: 82.25rem;
   background-color: #fff;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08); */
+  position: fixed;
+  /* background-color: white; */
+  margin-top: 0.5rem;
+  padding: 0 2.225rem;
+  /* background-color: #fff; */
+}
+.container.nav-fixed {
   box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 50px;
+  padding: 0 20px;
+  background-color: #fff;
 }
 
 .navbar_fixed .header_area .menu_one {
@@ -4077,7 +4087,7 @@ button:focus {
   max-width: 830px;
   margin: 0 auto;
   text-align: center;
-  height: 100vh;
+  height: 30vh;
 }
 
 .section_container .intro {
@@ -26142,7 +26152,7 @@ a .h_head:hover {
 
 /*============= chat_banner_area css ============*/
 .chat_banner_area {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 700px;
   background: #fafafe;
   position: relative;
@@ -26181,9 +26191,9 @@ a .h_head:hover {
   margin-right: 6px;
 }
 .chat_banner_content h2 {
-  font-size: 48px;
-  line-height: 35px;
-  font-weight: 600;
+  font-size: 48px !important;
+  line-height: 45px !important;
+  font-weight: 700;
   color: #051441;
   margin-bottom: 30px;
 }
@@ -26522,7 +26532,7 @@ a .h_head:hover {
 /* custum start css */
 
 button.navbar-toggler {
-  background: #000;
+  background: #fff;
 }
 
 a.btn_get.btn_hover.undefined {
@@ -26564,6 +26574,8 @@ button.email-btn {
   margin-right: 15px;
   text-transform: uppercase;
   font-weight: 500;
+  width: 260px;
+  margin-top: 10px;
 }
 button.google-btn {
   background: #fff;
@@ -26575,6 +26587,8 @@ button.google-btn {
   border: 1px solid#194bea;
   font-weight: 500;
   text-transform: uppercase;
+  width: 260px;
+  margin-top: 10px;
 }
 
 /* solution page css */
@@ -26617,9 +26631,54 @@ section#home {
 .erp_banner_area_two .animation_img {
   margin-top: -360px !important;
 }
+
+button#dropdown-basic {
+  background: none;
+  border: none;
+  color: #043ff9;
+  font-weight: 500;
+}
+
+.dropdown-menu.show {
+  inset: 0px auto auto -100px !important;
+}
+
 /* enterprise page css close  */
+a.btn_get.btn_hover.rt.fre {
+  background: #00aff0;
+  border-color: #00aff0;
+  color: #ffff;
+}
+a.btn_get.btn_hover.rt.tak {
+  background: #2ccec9;
+  border-color: #2ccec9;
+  color: #ffff;
+}
+a.btn_get.btn_hover.rt.fre:hover {
+  background: #fff;
+  border-color: #00aff0;
+  color: #00aff0;
+}
+a.btn_get.btn_hover.rt.tak:hover {
+  background: #fff;
+  border-color: #2ccec9;
+  color: #2ccec9;
+}
+
+/* footer list 01/04/2023 */
+
+h3.f-title.f_600.t_color.f_size_18.mb_40 {
+  margin-bottom: 20px !important;
+}
+
+/* compairion css */
+section.pricing_area_four.sec_pad.prc-padding.cp-price {
+  padding-top: 60px !important;
+}
+/* compairion css close */
 
 /* Extra small devices (phones, 600px and down)  */
+
 @media only screen and (max-width: 600px) {
   .section_container .intro_content {
     position: absolute;
@@ -26629,9 +26688,92 @@ section#home {
     position: fixed;
     top: 0;
     left: 0;
+    padding: 0rem !important;
     width: 100%;
     background-color: white;
     -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
     box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+  }
+  .chat_banner_content h2 {
+    font-size: 30px !important;
+    line-height: 10px !important;
+  }
+  .intro_content {
+    padding-top: 140px !important;
+  }
+  .app_banner_contentmt h2 {
+    line-height: 35px;
+    font-size: 22px;
+    margin-top: 0px !important;
+  }
+  section.pricing_area_four.sec_pad.prc-padding {
+    padding-top: 98px;
+  }
+  .h_security_banner_area {
+    height: auto;
+    min-height: auto;
+    padding: 100px 0px;
+  }
+  .security_banner_content h2 {
+    font-size: 22px;
+    line-height: 45px;
+  }
+
+  .container.nav-fixed {
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
+    padding: 0px;
+  }
+  .navbar_fixed .header_area {
+    margin-top: 0rem;
+  }
+  .chat_banner_content {
+    padding-top: 35px !important;
+  }
+  .erp_banner_area_two .section_container .intro_content h1 {
+    font-size: 30px !important;
+  }
+  .erp_banner_area_two .section_container .intro_content {
+    padding-top: 160px !important;
+  }
+  .symbols-pulse.active {
+    display: none;
+  }
+  button.navbar-toggler {
+    background: #ccc;
+  }
+  .laptop-frame {
+    height: 202px;
+  }
+}
+
+/* large svreen */
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .section_container {
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+    height: 26vh !important;
+  }
+  .h_security_banner_area {
+    height: 22vh !important;
+  }
+
+  .new_startup_banner_area {
+    min-height: 48vh !important;
+  }
+  .hosting_banner_area {
+    height: 30vh !important;
+  }
+  .chat_banner_area {
+    height: 28vh !important;
+    padding: 70px 0px 0px !important;
+  }
+  .section_container {
+    height: 60vh !important;
+  }
+  section.new_startup_banner_area.cp-banner {
+    min-height: 30vh !important;
   }
 }

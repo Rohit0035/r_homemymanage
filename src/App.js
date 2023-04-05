@@ -45,6 +45,8 @@ import Shop from "./components/myanimation/Shop";
 import Marketing from "./components/myanimation/Marketing";
 import MyDoc from "./components/myanimation/MyDoc";
 import Employee from "./components/myanimation/Employee";
+import CompireSlide from "./components/comparison/CompireSlide";
+import ComparisonMain from "./components/comparison/ComparisonMain";
 
 class App extends Component {
   // componentDidMount() {
@@ -78,6 +80,12 @@ class App extends Component {
           />
 
           {/* new page route */}
+
+          <ScrollToTopRoute path="/comparison" component={ComparisonMain} />
+          <ScrollToTopRoute
+            path="/comparison/compireslide"
+            component={CompireSlide}
+          />
           <ScrollToTopRoute
             path="/myanimation/enterprisepage"
             component={EnterprisePage}

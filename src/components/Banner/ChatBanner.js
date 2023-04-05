@@ -1,8 +1,35 @@
 import React from "react";
 import TextLoop from "react-text-loop";
 import { FcGoogle } from "react-icons/fc";
-
+import { useState } from "react";
+import { signInWithGoogle } from "../../../src/Fairbase";
 const ChatBanner = () => {
+  const [user, setUser] = useState(null);
+
+  const handleGoogleLogin = async () => {
+    await signInWithGoogle();
+    // const provider = new firebase.auth.GoogleAuthProvider();
+    // firebase
+    //   .auth()
+    //   .signInWithPopup(provider)
+    //   .then((result) => {
+    //     setUser(result.user);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+  };
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDj-VVM_9GXtzxSt6n8Untef8MTBoDC2GA",
+    authDomain: "mymanagerhome-1479a.firebaseapp.com",
+    projectId: "mymanagerhome-1479a",
+    storageBucket: "mymanagerhome-1479a.appspot.com",
+    messagingSenderId: "622474931141",
+    appId: "1:622474931141:web:4166c3e3186cb62835f9ac",
+    measurementId: "G-NY33N1Z6C6",
+  };
+
   return (
     <section className="chat_banner_area">
       <img
@@ -62,7 +89,7 @@ const ChatBanner = () => {
                     Productivity
                   </h2>
                 </TextLoop>
-                Manager at your fingertips
+                Manager
               </h2>
               <p
                 className="f_400  l_height28 wow fadeInUp"
@@ -79,17 +106,24 @@ const ChatBanner = () => {
                 {/* <a href="/#" className="chat_btn btn_hover">
                   Read More
                 </a> */}
-                <button className="email-btn">
-                  Sign up with email address
-                </button>
+                {/* <p>Welcome, {user.displayName}</p> */}
 
-                <button className="google-btn">
-                  <FcGoogle fontSize={30} className="mr-2" />
-                  Sign up with Google
-                </button>
+                <div className="row">
+                  <div className="col-md-6">
+                    <button className="email-btn">
+                      Sign up with email address
+                    </button>
+                  </div>
+                  <div className="col-md-6">
+                    <button className="google-btn" onClick={handleGoogleLogin}>
+                      <FcGoogle fontSize={30} className="mr-2" />
+                      Sign up with Google
+                    </button>
+                  </div>
+                </div>
                 <div className="">
-                  <span>
-                    (Create your free account. No credit card is required)
+                  <span style={{ fontSize: 16, fontWeight: 400 }}>
+                    Create your free account. No credit card is required.
                   </span>
                 </div>
               </div>

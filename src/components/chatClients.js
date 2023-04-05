@@ -5,7 +5,7 @@ const chatClients = () => {
   return (
     <div>
       <section className="chat_clients_area">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-lg-6 p-0 chat_clients_feedback">
               <div className="clients_feedback_item flex-row-reverse">

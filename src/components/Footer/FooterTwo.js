@@ -15,7 +15,7 @@ class FooterTwo extends Component {
               {FooterData.CompanyWidget.map((widget) => {
                 return (
                   <Reveal effect="fadeInUp" key={widget.id}>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-3 col-md-5">
                       <div
                         className="f_widget company_widget wow fadeInLeft"
                         data-wow-delay="0.2s"
@@ -64,12 +64,9 @@ class FooterTwo extends Component {
                   </Reveal>
                 );
               })}
-              <AboutWidget ftitle="About Us" FooterData={FooterData} />
-              <SolutionWidget
-                ftitle="Workflow Solutions"
-                FooterData={FooterData}
-              />
-              <TeamWidget ftitle="Team Solutions" FooterData={FooterData} />
+              <AboutWidget ftitle="Company" FooterData={FooterData} />
+              <SolutionWidget ftitle="Features" FooterData={FooterData} />
+              <TeamWidget ftitle="Products" FooterData={FooterData} />
             </div>
           </div>
         </div>

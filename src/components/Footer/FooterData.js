@@ -269,45 +269,55 @@ const FooterData = {
     {
       id: 1,
       url: "#",
-      text: "Company",
+      text: "About us",
     },
     {
       id: 2,
       url: "#",
-      text: "Leadership",
+      text: "Contact Us",
     },
     {
       id: 3,
       url: "#",
-      text: "Diversity",
+      text: "Resources",
+    },
+  ],
+
+  Comparison: [
+    {
+      id: 1,
+      url: "#",
+      text: "Mindbody",
+    },
+    {
+      id: 2,
+      url: "#",
+      text: "lorem",
     },
     {
       id: 4,
       url: "#",
-      text: "Jobs",
+      text: "lorem",
     },
     {
       id: 5,
       url: "#",
-      text: "Press",
+      text: "lorem",
     },
     {
-      id: 6,
+      id: 4,
       url: "#",
-      text: "Wavelength",
+      text: "lorem",
     },
   ],
+
   Solution: [
     {
       id: 1,
       url: "#",
       text: "Project Management",
     },
-    {
-      id: 2,
-      url: "#",
-      text: "Agile",
-    },
+
     {
       id: 3,
       url: "#",
@@ -318,47 +328,96 @@ const FooterData = {
       url: "#",
       text: "Reporting",
     },
+  ],
+
+  // SolutionTwo: [
+  //   {
+  //     id: 1,
+  //     url: "/Home-ERP",
+  //     text: "Solutions",
+  //   },
+
+  //   {
+  //     id: 3,
+  //     url: "myanimation/enterprisepage",
+  //     text: "Enterprise",
+  //   },
+  //   {
+  //     id: 4,
+  //     url: "Price",
+  //     text: "Pricing",
+  //   },
+  // ],
+
+  Niche: [
     {
-      id: 5,
+      id: 1,
       url: "#",
-      text: "Work Tracking",
+      text: "Ipsum ",
     },
     {
-      id: 6,
+      id: 2,
       url: "#",
-      text: "See All Uses",
+      text: "Ipsum ",
+    },
+    {
+      id: 2,
+      url: "#",
+      text: "Ipsum ",
+    },
+  ],
+  NicheTwo: [
+    {
+      id: 1,
+      url: "#",
+      text: "Lorem ",
+    },
+    {
+      id: 2,
+      url: "#",
+      text: "Lorem ",
+    },
+    {
+      id: 2,
+      url: "#",
+      text: "Lorem ",
     },
   ],
   teamSolution: [
     {
       id: 1,
       url: "#",
-      text: "Engineering",
+      text: "Contact",
     },
     {
       id: 2,
       url: "#",
-      text: "Designers",
+      text: "Task",
     },
     {
       id: 3,
       url: "#",
-      text: "Sales",
+      text: "Goals",
     },
     {
       id: 4,
       url: "#",
-      text: "Developers",
+      text: "Marketing",
     },
     {
       id: 5,
       url: "#",
-      text: "Marketing",
+      text: "Shop",
     },
     {
       id: 6,
       url: "#",
-      text: "See All team",
+      text: "MyDoc",
+    },
+    {
+      id: 7,
+      url: "#",
+      text: "Employee",
     },
   ],
 };
